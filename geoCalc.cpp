@@ -69,7 +69,7 @@ int main(){
 
     int userPick;
 
-    cout << "-------------- MENU ----------------" << endl;
+    cout << "\n\n-------------- MENU ----------------" << endl;
     cout << "1. Calculate the area of a circle" << endl;
     cout << "2. Calculate the area of a rectangle" << endl;
     cout << "3. Calculate the area of a triangle" << endl;
@@ -111,6 +111,7 @@ int main(){
             break;
         default :
             cout << "Invalid choice, must be between 1-4" << endl;
+            break;
     }
 
     return 0;
